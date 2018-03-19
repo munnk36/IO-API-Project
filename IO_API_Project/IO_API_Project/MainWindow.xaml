@@ -1,0 +1,21 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IO_API_Project"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Name="Main" x:Class="IO_API_Project.MainWindow"
+        mc:Ignorable="d"
+        Title="Catch 'Em All" Height="350" Width="340.044">
+    <Grid>
+        <Button x:Name="btnEncounter" Content="Go!" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="132" Click="btnEncounter_Click" IsEnabled="True"/>
+        <Label x:Name="label" Content="Encountered Pokemon:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,35,0,0"/>
+        <TextBox x:Name="txtEncounteredPokemon" HorizontalAlignment="Left" Height="23" Margin="147,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+        <Button x:Name="btnThrow" Content="Throw PokeBall!" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Width="132" IsEnabled="False" Click="btnThrow_Click"/>
+        <ListBox x:Name="lbPokemonInventory" HorizontalAlignment="Left" Height="145" Margin="10,164,0,0" VerticalAlignment="Top" Width="303"/>
+        <Label x:Name="label_Copy" Content="Result:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,91,0,0"/>
+        <TextBox x:Name="txtResult" HorizontalAlignment="Left" Height="36" Margin="60,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="253" IsEnabled="False"/>
+        <Label x:Name="label_Copy1" Content="Pokemon Inventory:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,133,0,0"/>
+
+    </Grid>
+</Window>

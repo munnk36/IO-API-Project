@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ArrayOfPokemon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Pokemon>
+    <ID>532</ID>
+    <Name>timburr</Name>
+    <CaptureRate>180</CaptureRate>
+  </Pokemon>
+  <Pokemon>
+    <ID>164</ID>
+    <Name>noctowl</Name>
+    <CaptureRate>90</CaptureRate>
+  </Pokemon>
+</ArrayOfPokemon>
